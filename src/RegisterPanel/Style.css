@@ -1,0 +1,556 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* __________Navbar___________________ */
+.Navbar{
+    height: 60px;
+    width: 100%;
+    background: #0D263B;
+    padding: 0 130px;
+}
+.LinkBox{
+    height: 60px;
+    width: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Links{
+    height: 60px;
+    width: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Links a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+/* _________________________________ */
+
+.Container{
+    width: 100%;
+    padding: 0 130px;
+}
+.Container > p{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 85px;
+    letter-spacing: -0.02em;
+    
+    /* text/1 */
+    
+    color: #0D263B;
+}
+
+
+
+/* ___________Main__________________ */
+
+.Main{
+    height: 301px;
+    width: 100%;
+    left: 130px;
+    top: 166px;
+    border-radius: 3px;
+    background: #FFFFFF;
+    padding: 10px 30px;
+    border: 1px solid #E6E9EC;
+    box-shadow: 0px 10px 30px rgba(13, 38, 59, 0.05);
+    border-radius: 3px;
+}
+.Main >p{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 78px;
+    color: #0D263B;
+}
+
+.ino-Bottom{
+    width: 100%;
+    height: 80px;
+    margin-top: 60px;
+}
+
+/* ____Lable_____ */
+    .inp_con_box{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        /* padding: 30px; */
+    }
+
+
+    .inp_con{
+        width: 500px;
+        height: 60px;
+        /* margin: auto; */
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .inp_con1{
+        width: 100%;
+        margin-top: -15px;
+    }
+
+
+    .inp_con input{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 40px;
+        background-color: transparent;
+        border: none;
+        outline: none; 
+        border-bottom: 2px solid #ddd;
+        /* color: #fff; */
+        color: #696969;
+    }
+    .inp_con label{
+        position: absolute;
+        left: 0;
+        top: 28px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #696969;
+        transition: .5s;
+    }
+
+    .inp_con input:focus + label{
+        top: 0;
+    }
+    .inp_con input:valid + label{
+        top: 0;
+    }
+/* __________ */
+
+
+/* ______________Section-1_______________ */
+
+.Section-1{
+    height: 380px;
+    width: 100%;
+    margin: 25px 0;
+    border-radius: 3px;
+    padding: 10px 30px;
+
+    background: #FFFFFF;
+    border: 1px solid #E6E9EC;
+    box-shadow: 0px 10px 30px rgba(13, 38, 59, 0.05);
+    border-radius: 3px;
+}
+.Section-1 > p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 38px;
+    color: #0D263B;
+}
+.Sec-Add{
+    height: 320px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.AddBox{
+    height: 300px;
+    width: 320px;
+}
+
+
+
+/* ______________Section-2_______________ */
+.Section-2{
+    height: 200px;
+    width: 100%;
+    border-radius: 3px;
+    padding: 10px 30px;
+    background: #FFFFFF; 
+    border: 1px solid #E6E9EC;
+    box-shadow: 0px 10px 30px rgba(13, 38, 59, 0.05);
+    border-radius: 3px;
+}
+.Section-2 > p{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0D263B;
+}
+.IC-bottom{
+    margin-top: 15px;
+}
+
+
+/* ____________Section-3 Location__________ */
+
+.Section-3{
+    height: 790px;
+    width: 100%;
+    border-radius: 3px;
+    background: #FFFFFF;
+    margin: 25px 0;
+    border: 1px solid #E6E9EC;
+    box-shadow: 0px 10px 30px rgba(13, 38, 59, 0.05);
+    border-radius: 3px;
+    padding: 20px 30px;
+}
+.Section-3 >p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #0D263B;
+}
+
+.Location-top{
+    width: 100%;
+    height: 160px;
+}
+
+
+.ino-Bottom2{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Select{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none; 
+    border-bottom: 2px solid #ddd;
+    color: #696969;
+}
+.Select > option{
+    background-color: transparent;
+    color: #696969;
+}
+
+
+.World-Map{
+    width: 100%;
+    height: 460px;
+    background-color: red;
+    overflow: hidden;
+}
+
+
+.Location-bottom{
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+}
+
+
+/* ___________Section-4_____________ */
+.Section-4{
+    height: 820px;
+    width: 100%;
+    border-radius: 3px;
+    background: #FFFFFF;
+    border: 1px solid #E6E9EC;
+    box-shadow: 0px 10px 30px rgba(13, 38, 59, 0.05);
+    border-radius: 3px;
+    padding: 20px 30px;
+}
+.Section-4 > p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 33px;
+    display: flex;
+    flex-direction: column;
+    color: #0D263B;
+}
+.Section-4 > h5{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 65px;
+    margin-top: 15px;
+    color: #696969;
+}
+.Btn-box  h5{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 45px;
+    margin-top: 5px;
+    color: #696969;
+}
+
+.ImgsBox{
+    height: 150px;
+    width: 660px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Imgs{
+    height: 150px;
+    width: 150px;
+    border-radius: 3px;
+    background: #C4C4C4;
+}
+.Imgs {
+    overflow: hidden;
+}
+.Imgs > img{
+    width: 150%;
+}
+.Imgs:nth-child(3) > img{
+    width: 183%;
+}
+.Btn{
+    height: 45px;
+    margin: 10px 0;
+    width: 150px;
+    border-radius: 3px;
+    font-weight: 400;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #0061DF;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0061DF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Btn-box{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 320px;
+    margin-top: 15px;
+}
+
+.Btn-box > span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 130px;
+    height: 30px;
+}
+
+.top{
+    margin-top: -9px;
+}
+
+
+/* ___________Section-5__________ */
+
+.Section-5{
+    width: 100%;
+    height: 280px;
+    margin: 30px 0;
+    background: #FFFFFF;
+    padding: 20px 30px;
+    border: 1px solid #E6E9EC;
+    box-shadow: 0px 10px 30px rgba(13, 38, 59, 0.05);
+    border-radius: 3px;
+}.Section-5 > p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 13px;
+    display: flex;
+    flex-direction: column;
+    color: #0D263B;
+}
+.ChakBoxs{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.Chaks{
+    width: 150px;
+    height: 200px;
+    margin-left: 10px;
+    /* background-color: #0061DF; */
+}
+.Chaks span{
+    width: 180px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.Chaks span > p{ 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 10px;
+    color: #696969;
+}
+.Chaks span > input{ 
+    width: 18px;
+    height: 18px;
+    background: #FFFFFF;
+    border: 2px solid #E6E9EC;
+}
+
+
+/* ___________Section-6_____________ */
+
+.Section-6{
+    width: 100%;
+    height: 150px;
+    padding: 10px 30px;
+    background: #FFFFFF;
+    border: 1px solid #E6E9EC;
+    box-shadow: 0px 10px 30px rgba(13, 38, 59, 0.05);
+    border-radius: 3px;
+}
+.Section-6 >p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 48px;
+    color: #0D263B;
+}
+
+/* ___________Section-7_____________ */
+.Btn-Box{
+    width: 100%;
+    height: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 25px 0;
+}
+.Btn-Box > button{
+    height: 44px;
+    width: 280px;
+    border: none;
+    border-radius: 2px;
+    padding: 12px, 40px, 12px, 40px;
+    background: #0061DF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.Btn-Box > button:active{
+    transform: scale(0.965);
+}
+
+/* ___________footer_____________ */
+
+.Footer{
+    width: 100%;
+    height: 375px;
+    background: #0D263B;
+    margin-top: 25px;
+}
+
+.Footer-Top{
+    width: 100%;
+    height: 320px;
+    padding: 0 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.FooLinks{
+    width: 225px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+}
+.FooLinks > a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 39px;
+    color: #FFFFFF;
+
+}
+.FooLinks > a:hover{
+    color: #b1b0b0;
+}
+
+
+.FooLinks > b{
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.FooLinks span{
+    width: 225px;
+    height: 35px;
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+.FooLinks span > a{
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 15px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.bootom-link{
+    width: 180px;
+    height: 33px;
+    display: flex;
+    margin: 30px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.bootom-link > span{
+    width: 33px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.bootom-link > span:hover{
+    border-radius: 3px;
+    background: #ffffff31;
+}
+
+
+.Footer-Bottom{
+    width: 100%;
+    height: 55px;
+    padding: 0 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid  rgba(255, 255, 255, 0.15);;
+}
+.Footer-Bottom > p{
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   color: #FFFFFF;
+}
+
+
